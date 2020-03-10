@@ -22,4 +22,4 @@ m = folium.Map(location=[48, -102], zoom_start=10)
 
 folium.LayerControl().add_to(m)
 
-m.save('map2.html')
+m.save('map3.html')
