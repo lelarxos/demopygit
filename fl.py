@@ -6,7 +6,7 @@ import os
 # unemployement_data = os.path.join('data', 'us_unemployment.csv')
 # state_data = pd.read_csv(unemployement_data)
 
-m = folium.Map(location=[48, -102], zoom_start=3)
+m = folium.Map(location=[48, -102], zoom_start=10)
 
 # m.choropleth(
 #     # geo_data=states,
