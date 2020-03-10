@@ -6,7 +6,7 @@ import os
 # unemployement_data = os.path.join('data', 'us_unemployment.csv')
 # state_data = pd.read_csv(unemployement_data)
 
-m = folium.Map(location=[48, -102], zoom_start=10)
+m = folium.Map(location=[48, -102], zoom_start=15)
 
 # m.choropleth(
 #     # geo_data=states,
@@ -22,4 +22,4 @@ m = folium.Map(location=[48, -102], zoom_start=10)
 
 folium.LayerControl().add_to(m)
 
-m.save('map3.html')
+m.save('map4.html')
